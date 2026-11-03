@@ -1,0 +1,3 @@
+https://flashcardfrontend-rehp.onrender.com/
+
+I packaged an existing frontend project into a docker container, which was relatively easy after some messing around with different versions and some problems getting node to run the server in the right way. Then I tried Azure, AWS and Heroku, neither of which I managed to run the container on. Finally I found the javascript bug in the application when I deployed it to render and it worked after that!
